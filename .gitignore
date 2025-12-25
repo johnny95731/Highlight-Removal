@@ -1,2 +1,33 @@
+# Byte-compiled
+__pycache__/
 
+# Distribution / packaging
+dist/
+run_module.py
+
+# Unit test / coverage reports
+img_test/
+.coverage
+.coverage.*
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+
+# macOS system files
 .DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Temporary and log files
+*.log
+*.tmp
