@@ -37,11 +37,33 @@ def separate_ds(
 
 def akashi2016(
     img: torch.Tensor,
-    R: int = 15,
+    R: int = 7,
     _lambda: float = 3.0,
     rtol: float = 1e-8,
     max_iter: int = 100,
 ):
+    """Image highlight removal. An implementation of
+    Akashi et al. (see [12] in README.md).
+
+    Parameters
+    ----------
+    img : torch.Tensor
+        An image with whape (C, H, W).
+    R : int, optional
+        The number of diffuse colors plus one, by default 7.
+    _lambda : float, optional
+        An coefficient of loss function, by default 3.0.
+    rtol : float, optional
+        Relative tolerance for stopping iteration, by default 1e-10.
+    max_iter : int, optional
+        Maximum number of iterations, by default 100.
+
+    Returns
+    -------
+    torch.Tensor
+        The diffuse components.
+    """
+    img = torch.as_tensor(img)
     channels, height, width = img.shape
     num_pixels = height * width
 
@@ -66,5 +88,5 @@ def akashi2016(
     res = mat_w[:, 1:] @ mat_h[1:, :]
 
     res = res.reshape(channels, height, width).contiguous()
-    res = torch.clip_(res, 0, 255)
+    torch.clip_(res, 0, 255)
     return res

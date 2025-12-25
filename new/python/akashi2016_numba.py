@@ -150,11 +150,32 @@ def _akashi2016(
 
 def akashi2016(
     img: np.ndarray,
-    R: int = 15,
+    R: int = 7,
     _lambda: float = 3.0,
     rtol: float = 1e-8,
     max_iter: int = 100,
 ):
+    """Image highlight removal. An implementation of
+    Akashi et al. (see [12] in README.md).
+
+    Parameters
+    ----------
+    img : np.ndarray
+        An image with whape (H, W, C).
+    R : int, optional
+        The number of diffuse colors plus one, by default 7.
+    _lambda : float, optional
+        An coefficient of loss function, by default 3.0.
+    rtol : float, optional
+        Relative tolerance for stopping iteration, by default 1e-10.
+    max_iter : int, optional
+        Maximum number of iterations, by default 100.
+
+    Returns
+    -------
+    np.ndarray
+        The diffuse components.
+    """
     height, width, channels = img.shape
     num_pixels = height * width
 
