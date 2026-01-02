@@ -37,7 +37,7 @@ Summary of Publicly Available Highlight Removal Method
 | Yang et al. [6] | 2010 | ECCV | [MATLAB](https://github.com/vitorsr/SIHR) |
 | Arnold et al. [7] | 2010 | Journal on Image and Video Processing | [MATLAB](https://github.com/jiemojiemo/some_specular_detection_and_inpainting_methods_for_endoscope_image) |
 | Saint-Pierre et al. [8] | 2011 | Machine Vision and Applications | [MATLAB](https://github.com/jiemojiemo/some_specular_detection_and_inpainting_methods_for_endoscope_image) |
-| Meslouhi et al. [9] | 2011 | Open Computer Science | [MATLAB](https://github.com/jiemojiemo/some_specular_detection_and_inpainting_methods_for_endoscope_image) |
+| El Meslouhi et al. [9] | 2011 | Open Computer Science | [MATLAB](https://github.com/jiemojiemo/some_specular_detection_and_inpainting_methods_for_endoscope_image) |
 | Shen et al. [10] | 2013 | Applied Optics | [MATLAB](https://github.com/vitorsr/SIHR) |
 | Huo et al. [11] | 2015 | ICMEW | [Python](https://github.com/EthanWooo/Huo15) |
 | Akashi et al. [12] | 2016 | CVIU | [MATLAB](https://github.com/vitorsr/SIHR) |
