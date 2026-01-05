@@ -50,6 +50,7 @@ Summary of Publicly Available Highlight Removal Method
 | Saha et al. [19] | 2020 | IET Image Processing | [MATLAB](https://github.com/7ZFG1/Combining-Highlight-Re-moval-and-Lowlight-Image-Enhancement-Technique-for-HDR-like-Image-Generation-) |
 | Wen et al. [20] | 2021 | TIP | [MATLAB](https://github.com/wsj890411/Polar_HR)              |
 | Pan et al. [21] | 2023 | CMPB | [C++](https://github.com/CXH-Research/Highlight-Removal/tree/main/Highlight-Removal) |
+| Guo et al. [22] | 2017 | TIP | [Python](https://github.com/aeinrw/LIME/tree/master) |
 
 ### Learning
 
@@ -127,3 +128,5 @@ Summary of Publicly Available Highlight Removal Method
 [20] S. Wen, Y. Zheng and F. Lu, "Polarization Guided Specular Reflection Separation," in IEEE Transactions on Image Processing, vol. 30, pp. 7280-7291, 2021, doi: [10.1109/TIP.2021.3104188](https://doi.org/10.1109/TIP.2021.3104188)
 
 [21] Junjun Pan, Ranyang Li, Hongjun Liu, Yong Hu, Wenhao Zheng, Bin Yan, Yunsheng Yang, Yi Xiao, "Highlight removal for endoscopic images based on accelerated adaptive non-convex RPCA decomposition," Computer Methods and Programs in Biomedicine, Volume 228, 2023, 107240, https://doi.org/10.1016/j.cmpb.2022.107240.
+
+[22] Guo X, Li Y, Ling H. LIME: Low-Light Image Enhancement via Illumination Map Estimation. IEEE Transactions on Image Processing 2017, 26 (2), 982–993. https://doi.org/10.1109/TIP.2016.2639450.
