@@ -1,5 +1,3 @@
-import sys
-
 import cv2
 import numpy as np
 
@@ -74,9 +72,3 @@ def yang2010(
     res = np.clip(img - img_sp, 0.0, 1.0)
     res = cv2.convertScaleAbs(res, None, 255)
     return res
-
-
-img = cv2.imread(sys.argv[1], cv2.IMREAD_COLOR_RGB)
-res = yang2010(img)
-cv2.imwrite('./yang2010.jpeg', res[:, :, ::-1])
-cv2.imwrite('./yang2010_ori.jpeg', img[:, :, ::-1])
