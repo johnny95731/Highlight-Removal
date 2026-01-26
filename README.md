@@ -52,37 +52,6 @@ Summary of Publicly Available Highlight Removal Method
 | Pan et al. [21] | 2023 | CMPB | [C++](https://github.com/CXH-Research/Highlight-Removal/tree/main/Highlight-Removal) |
 | Guo et al. [22] | 2017 | TIP | [Python](https://github.com/aeinrw/LIME/tree/master) |
 
-### Learning
-
-| Name | Year | Publication | Code |
-| ---- | ---- | ----------- | ---- |
-| SLRR | 2018 | ECCV | [Pytorch](https://github.com/dingguanglei/SLRR-SparseAndLowRankReflectionModel) |
-| Spec-CGAN | 2020 | Image and Vision Computing | [Tensorflow](https://github.com/msiraj83/SPEC-CGAN) |
-| TASHR | 2021 | PRCV | [Tensorflow](https://github.com/weizequan/TASHR) |
-| SpecularityNet | 2021 | TMM | [Pytorch](https://github.com/jianweiguo/SpecularityNet-PSD) |
-| JSHDR | 2021 | CVPR | [Pytorch](https://github.com/fu123456/SHIQ) |
-| Liang et al. | 2021 | Optics Express | [Pytorch](https://github.com/Deepyanyuan/FaceIntrinsicDecomposition) |
-| Unet-Transformer | 2022 | CVM | [Pytorch](https://github.com/hzfengfengxia/specularityRemoval) |
-| MG-CycleGAN | 2022 | PRL | [Pytorch](https://github.com/hootoon/MG-Cycle-GAN) |
-| TSRNet | 2023 | ICCV | [Pytorch](https://github.com/fu123456/TSHRNet) |
-| SHMGAN | 2023 | Neurocomputing | [Tensorflow](https://github.com/Atif-Anwer/SHMGAN) |
-| CycleSTTN | 2023 | MICCAI | [Pytorch](https://github.com/RemaDaher/CycleSTTN) |
-| Endo-STTN | 2023 | MIA | [Pytorch](https://github.com/endomapper/Endo-STTN) |
-| MEF-SHDR | 2023 | PRCV | [Pytorch](https://github.com/ErisGe/MEF-SHDR) |
-| | 2024 | ICASSP | [Pytorch](https://github.com/LittleFocus2201/ICASSP2024) |
-| EndoSRR | 2024 | International Journal of Computer Assisted Radiology and Surgery | [Pytorch](https://github.com/Tobyzai/EndoSRR) |
-| Film Removal | 2024 | CVPR | [Pytorch](https://github.com/jqtangust/filmremoval) |
-| HighlightRemover | 2024 | MM | [Pytorch](https://github.com/zz0223/HRNet) |
-| DHAN-SHR | 2024 | MM | [Pytorch](https://github.com/CXH-Research/DHAN-SHR) |
-| ORHLR-Net | 2024 | TVC | [Pytorch](https://github.com/hzq2333/ORHLR-Net) |
-| FHR-Net | 2024 | TCSVT | [Pytorch](https://github.com/hongsheng-Z/FHR-Net) |
-
-## Metric
-
-### Full-Reference
-
-[torchmetrics](https://github.com/Lightning-AI/torchmetrics) for cuda calculation
-
 
 ## References
 
