@@ -20,6 +20,7 @@ ENV/
 env.bak/
 venv.bak/
 .vscode/
+poetry.lock
 
 # macOS system files
 .DS_Store
