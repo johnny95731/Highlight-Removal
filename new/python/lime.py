@@ -136,7 +136,7 @@ def _subproblem_z(
 
 def apply_lime(
     img: np.ndarray,
-    num_iter: int = 10,
+    num_iter: int = 5,
     alpha: float = 2,
     rho: float = 2,
     gamma: float = 0.5,
