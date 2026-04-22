@@ -194,7 +194,7 @@ def apply_lime(
     Parameters
     ----------
     img : torch.Tensor
-        Image in the range of [0, 255] with shape (B, C, H, W).
+        Image in the range of [0, 1] with shape (B, C, H, W).
     num_iter : int, optional
         Maximum number of iterations, by default 10
     alpha : float, optional
